@@ -14,7 +14,6 @@ public with sharing class FlowAction_GetTime {
     public static List<List<Datetime>> getTime(List<FlowTime> params) {
 
         List<Datetime> dateTimes = new List<Datetime>();
-        List<String> timeFields = new List<String>();
         String datePart = '2000-01-01'; // any date can replace this
 
         for (FlowTime ft : params) {
